@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { server } = require('@hapi/hapi');
 
 module.exports = app => {
@@ -23,3 +24,12 @@ module.exports = app => {
 
 
  
+=======
+module.exports = app => {
+    const controller = require('../controllers/customerCep')();
+  
+    app.route('/api/v1/customer-cep/:cep')
+      .get(controller.listCep);
+  }
+
+>>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36

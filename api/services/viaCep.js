@@ -10,7 +10,11 @@ const fetch = require('node-fetch');
  */
 
 /**
+<<<<<<< HEAD
  * buscando os dados informado 
+=======
+ * Busca um endereço a partir de um CEP
+>>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36
  * 
  * @param {string} cep 
  * @returns {Promise<Endereco>}
@@ -34,9 +38,13 @@ const viaCep = async (cep) => {
     }
   };
 
+<<<<<<< HEAD
 module.exports = viaCep;
 
 
 
 
 
+=======
+module.exports = viaCep;
+>>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36

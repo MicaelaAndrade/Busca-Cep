@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@hapi/hapi": "^20.0.0",
+=======
+>>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36
     "body-parser": "^1.19.0",
     "config": "^3.2.3",
     "express": "^4.17.1",
