@@ -1,12 +1,12 @@
 <h1 align="center">
 <br>
-Serviço de busca cep API 
+API Serviço de busca de cep
 </h1>
 
-<p align="center">O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro
-</p>
+## 💻  Sobre o projeto 
+Serviço de API desenvolvido em Node.js que busca CEP,
+O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro
 
-<hr />
 
 <h1 align="center">
 <br>
@@ -15,11 +15,14 @@ Serviço de busca cep API
 
 <p align="center">npm install </p>
 <p align="center">npm start (executar serviço) </p>
-<p align="center">npm test ( testar aplicação) </p>
+<p align="center">npm test (testar aplicação) </p>
 
 <hr />
 
-<p align="center">Precisa ter Node.js instalado na maquina </p>
+<h1 align="center">
+<br>
+  Precisa ter Node.js instalado na maquina 
+</h1>
 
 ## 🚀 Technologies
 
