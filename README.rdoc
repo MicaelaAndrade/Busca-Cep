@@ -1,0 +1,12 @@
+buscadorcep
+Backend API para busca de CEP.
+
+Como utilizar
+Instale o componente:
+
+npm install
+
+O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro:
+
+dentro ViaCep.test.js 
+  informa numero do CEP 
