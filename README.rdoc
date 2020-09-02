@@ -1,31 +1,31 @@
-buscadorcep
-Backend API para busca de CEP.
+<h1 align="center">
+<br>
+Serviço de busca cep API 
+</h1>
 
-Como utilizar
-Instale o componente:
+<p align="center">O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro
+</p>
 
-npm install
+<hr />
 
-O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro:
+<h1 align="center">
+<br>
+  Como instalar 
+</h1>
 
-dentro ViaCep.test.js 
-  informa numero do CEP 
-<<<<<<< HEAD
-=======
+<p align="center">npm install </p>
+<p align="center">npm start (executar serviço) </p>
+<p align="center">npm test ( testar aplicação) </p>
 
-/*
-retorno:
+<hr />
 
-{
-  "cep": "21235-280",
-  "logradouro": "Estrada do Colégio",
-  "complemento": "",
-  "bairro": "Colégio",
-  "localidade": "Rio de Janeiro",
-  "uf": "RJ",
-  "unidade": "",
-  "ibge": "3304557",
-  "gia": ""
-}
-*/
->>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36
+<p align="center">Precisa ter Node.js instalado na maquina </p>
+
+## 🚀 Technologies
+
+- ✔️ Node.js
+
+- ✔️ JavaScript
+
+Made with by Micaela Andrade </br>
+[LinkedIn](https://www.linkedin.com/in/micaela-andrade-a9a17a64/) | [Email](mailto:micaela.andrade@outlook.com)

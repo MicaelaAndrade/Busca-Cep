@@ -13,11 +13,5 @@ module.exports = () => {
   }
 
   return controller;
-<<<<<<< HEAD
 }
 
-
-
-=======
-}
->>>>>>> a16f6b336d9d596bd909347a0668e25b11cd0d36
