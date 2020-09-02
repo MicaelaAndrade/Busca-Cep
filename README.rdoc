@@ -1,30 +1,24 @@
-<h1 align="center">
-<br>
-API Serviço de busca de cep
-</h1>
 
-## 💻  Sobre o projeto 
+API Serviço de busca de cep
+
+
+ 💻  Sobre o projeto 
 Serviço de API desenvolvido em Node.js que busca CEP,
 O componente exporta uma função que retorna um endereço recebendo um cep como parâmetro
 
-
-<h1 align="center">
 <br>
-  Como instalar 
-</h1>
+ 🛠 Como instalar 
 
-<p align="center">npm install </p>
-<p align="center">npm start (executar serviço) </p>
-<p align="center">npm test (testar aplicação) </p>
+- npm install
+- npm start (executar serviço) 
+- npm test (testar aplicação)
 
-<hr />
 
-<h1 align="center">
 <br>
-  Precisa ter Node.js instalado na maquina 
-</h1>
+ 🚨 Precisa ter Node.js instalado na maquina 
 
-## 🚀 Technologies
+
+ 🚀 Technologies
 
 - ✔️ Node.js
 
