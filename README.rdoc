@@ -22,5 +22,3 @@ O componente exporta uma função que retorna um endereço recebendo um cep como
 
 - ✔️ JavaScript
 
-Made with by Micaela Andrade </br>
-[LinkedIn](https://www.linkedin.com/in/micaela-andrade-a9a17a64/) | [Email](mailto:micaela.andrade@outlook.com)
