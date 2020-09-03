@@ -26,14 +26,11 @@ $ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd API_NODE
 
-# Vá para a pasta server
-$ cd server
-
 # Instale as dependências
-$ npm start
+$ cd install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+# Execute a aplicação
+$ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
 
