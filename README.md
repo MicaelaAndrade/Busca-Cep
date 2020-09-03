@@ -2,40 +2,46 @@
             
     
 ## 💻 Sobre o projeto
-<p align="center">Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade no brasil,
+<p align="center">Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade,
         o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.</p>
      
 <h1 align="center">
     <a href="https://nodejs.org/en/">🔗 Node.Js</a>
 </h1>
-<p align="center">🚀 Api serviço busca de cep</p>        
+<p align="center">🚀 Serviço busca de cep</p>        
 
 
-🎲 Rodando o Back End (servidor)
-=================
-<!--ts-->
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * Clone este repositório
-         $ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
-      * Acesse a pasta do projeto no terminal/cmd
-         $ cd API_NODE
-      * Instale as dependências
-         $ npm install
-      * Execute a aplicação 
-         $ npm start
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
-<!--te-->
+### Pré-requisitos
 
-    # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
-    
-    # Aplicação Swager acesse 
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Back End (servidor)
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd API_NODE
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm start
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
+
+# Aplicação Swagger acesse 
     $ <http://localhost300/doc>
     
     # Clique na rota GET, informe numero do cep exemplo:02051000
-    # Ele informará os dados retornado da busca
+    # dados retornado da busca: 
     
       "cep": "02051-000",
       "logradouro": "Rua Amazonas da Silva",
@@ -43,8 +49,20 @@
       "localidade": "São Paulo",
       "uf": "SP"
     
-    # Instale as dependências
-    $ npm install
+# Code coverage
+  $ npm test
+
+# Teste integração / unitário
+   Retornará os dados do cep validado / invalido. 
+
+```
+
+
+
+
+    # 
+    
+    
     
 
     ### 🛠 Tecnologias
