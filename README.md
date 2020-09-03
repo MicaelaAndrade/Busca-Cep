@@ -49,8 +49,8 @@ $ npm start
 # Code coverage
   $ npm test
 
-# Teste integração / unitário
-   Retornará os dados do cep validado / invalido. 
+# Teste unitário / integração 
+   retornara os dados do cep validado / inválido. 
 
 ```
  ### 🛠 Tecnologias
