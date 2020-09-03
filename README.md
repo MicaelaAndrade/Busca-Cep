@@ -46,9 +46,13 @@ $ npm start
       "localidade": "São Paulo",
       "uf": "SP"
     
-# Code coverage
+# Aplicação Code coverage
   $ npm test
 
+# Acessando a pagina 
+  $ http://127.0.0.1:5500/coverage/lcov-report/index.html
+
+ 
 # Teste unitário / integração 
    retornara os dados do cep validado / inválido. 
 
