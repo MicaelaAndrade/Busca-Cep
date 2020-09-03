@@ -35,7 +35,7 @@ $ npm start
 # O servidor inciará na porta:3000 - acesse http://localhost:3000 
 
 # Aplicação Swagger acesse 
-    $ http://localhost300/doc
+    $ http://localhost:3000/doc
 
   Clique na rota GET, informe numero do cep exemplo:02051000
     dados retornado da busca: 
