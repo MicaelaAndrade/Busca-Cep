@@ -36,9 +36,9 @@ $ npm start
 
 # Aplicação Swagger acesse 
     $ http://localhost300/doc
-    
-    # Clique na rota GET, informe numero do cep exemplo:02051000
-    # dados retornado da busca: 
+
+  Clique na rota GET, informe numero do cep exemplo:02051000
+    dados retornado da busca: 
     
       "cep": "02051-000",
       "logradouro": "Rua Amazonas da Silva",
