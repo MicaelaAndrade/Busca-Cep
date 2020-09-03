@@ -1,7 +1,6 @@
 <h1 align="center">
-    <br>
     API Serviço busca de cep
-    </h1>
+</h1>
             
     
     💻  Sobre o projeto 
