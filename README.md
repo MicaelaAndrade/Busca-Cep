@@ -1,13 +1,12 @@
 <h1 align="center">
     <br>
-    API Serviço de busca de cep
+    API Serviço busca de cep
     </h1>
             
     
-    <p align="center">
-        💻  Sobre o projeto 
+    💻  Sobre o projeto 
         Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade no brasil,
-        o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.</p>
+        o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.
     
     <hr />
     
@@ -47,9 +46,7 @@
     # Instale as dependências
     $ npm install
     
-  
 
-    <br>
     ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -62,6 +59,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
  👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@micaelaandrade_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/micaelaandrade_) [![Linkedin Badge](https://img.shields.io/badge/-Micaela-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/micaela-andrade/)](https://www.linkedin.com/in/micaela-andrade/) 
+[![Twitter Badge](https://img.shields.io/badge/-@micaelaandrade_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/micaelaandrade_)](https://twitter.com/micaelaandrade_) [![Linkedin Badge](https://img.shields.io/badge/-Micaela-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/micaela-andrade/)](https://www.linkedin.com/in/micaela-andrade/) 
 [![Gmail Badge](https://img.shields.io/badge/-micaela17andrade@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:micaela17andrade@gmail.com)](mailto:micaela17andrade@gmail.com)
 
