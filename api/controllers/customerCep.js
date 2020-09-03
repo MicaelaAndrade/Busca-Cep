@@ -1,8 +1,9 @@
 
 module.exports = () => {
+
   
+
   const viaCep = require('../services/viaCep')
-  const testCep = require('../tests/Integration/testCep.test')
   const controller = {};
 
   controller.listCep = async (req, res) => {
@@ -11,7 +12,7 @@ module.exports = () => {
 
     const data = await viaCep(cep)
 
-    return res.status(200).json(data)
+     res.status(200).json(data)
   }
 
   return controller;

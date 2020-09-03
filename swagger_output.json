@@ -3,7 +3,7 @@
   "info": {
     "version": "1.0.0",
     "title": "REST API",
-    "description": ""
+    "description": "Serviço busca de cep"
   },
   "host": "localhost:3000",
   "basePath": "/",
@@ -24,11 +24,8 @@
             "name": "cep",
             "in": "path",
             "required": true
-          },
-          {
-            "name": "filtro",
-            "in": "query"
           }
+         
         ],
         "responses": {
           "404": {
