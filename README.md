@@ -21,7 +21,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
+$ git clone https://github.com/MicaelaAndrade/Busca-Cep
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd API_NODE
@@ -32,10 +32,10 @@ $ cd install
 # Execute a aplicação
 $ npm start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
+# O servidor inciará na porta:3000 - acesse http://localhost:3000 
 
 # Aplicação Swagger acesse 
-    $ <http://localhost300/doc>
+    $ http://localhost300/doc
     
     # Clique na rota GET, informe numero do cep exemplo:02051000
     # dados retornado da busca: 
@@ -53,16 +53,7 @@ $ npm start
    Retornará os dados do cep validado / invalido. 
 
 ```
-
-
-
-
-    # 
-    
-    
-    
-
-    ### 🛠 Tecnologias
+ ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
