@@ -10,12 +10,8 @@ o componente exporta uma função que retorna um endereço recebendo um cep como
 <link>https://nodejs.org/en/</link> 
 
 <br>
- 🛠 Como instalar 
-
-- npm install
-- npm start (executar serviço) 
-- npm test (testar aplicação)
-
+ 🚨 Precisa estar instalado Node.js, segue o link para baixar 
+- https://nodejs.org/en/
 
 
 <br>
@@ -25,5 +21,3 @@ o componente exporta uma função que retorna um endereço recebendo um cep como
 
 - ✔️ JavaScript
 
-Made with by Micaela Andrade </br>
-[LinkedIn](https://www.linkedin.com/in/micaela-andrade-a9a17a64/) | [Email](mailto:micaela.andrade@outlook.com)
