@@ -1,11 +1,10 @@
- 
 {
   "name": "API_NODE",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "jest",
     "swagger-autogen": "node swagger.js"
   },
@@ -13,14 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^20.0.0",
     "body-parser": "^1.19.0",
     "config": "^3.2.3",
+    "dotenv-safe": "^8.2.0",
     "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
     "swagger-autogen": "^1.1.0",
-    "swagger-ui-express": "^4.1.4"
+    "swagger-ui-express": "^4.1.4",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
     "jest": "^26.0.1"

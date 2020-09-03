@@ -2,6 +2,7 @@
 module.exports = () => {
   
   const viaCep = require('../services/viaCep')
+  const testCep = require('../tests/Integration/testCep.test')
   const controller = {};
 
   controller.listCep = async (req, res) => {
