@@ -1,18 +1,16 @@
-<h1 align="center">
-    API Serviço busca de cep
-</h1>
+<h1 align="center">API Serviço busca de cep</h1>
             
     
-    💻  Sobre o projeto 
-        Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade no brasil,
-        o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.
-    
-    <hr />
-    
-    🚨 Precisa estar instalado Node.js, segue o link para baixar 
-    - https://nodejs.org/en/
+## 💻 Sobre o projeto
+<p align="center">Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade no brasil,
+        o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.</p>
+     
+<h1 align="center">
+    <a href="https://nodejs.org/en/">🔗 Node.Js</a>
+</h1>
+<p align="center">🚀 Api serviço busca de cep</p>        
 
-    <hr />
+
 
     🎲 Rodando o Back End (servidor)
 
