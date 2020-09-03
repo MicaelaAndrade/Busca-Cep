@@ -11,21 +11,24 @@
 <p align="center">🚀 Api serviço busca de cep</p>        
 
 
+🎲 Rodando o Back End (servidor)
+=================
+<!--ts-->
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+      * Clone este repositório
+         $ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
+      * Acesse a pasta do projeto no terminal/cmd
+         $ cd API_NODE
+      * Instale as dependências
+         $ npm install
+      * Execute a aplicação 
+         $ npm start
+      * [Combo](#combo)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)
+<!--te-->
 
-    🎲 Rodando o Back End (servidor)
-
-    # Clone este repositório
-    $ git clone <https://github.com/MicaelaAndrade/Busca-Cep>
-    
-    # Acesse a pasta do projeto no terminal/cmd
-    $ cd API_NODE
-    
-    # Instale as dependências
-    $ npm install
-    
-    # Execute a aplicação 
-    $ npm start
-    
     # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
     
     # Aplicação Swager acesse 
