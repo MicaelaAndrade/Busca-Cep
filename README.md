@@ -58,11 +58,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Autor
 
  <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/53954022/92161695-549d5400-ee07-11ea-9373-cc42e7ee53a5.png" width="100px;" alt=""/>
- <br />
  <sub><b>Micaela Andrade</b></sub>
 
  👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/micaelaandrade_) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/micaela-andrade/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:micaela.andrade@outlook.com)
+[![Twitter Badge](https://img.shields.io/badge/-@micaelaandrade_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/micaelaandrade_) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/micaela-andrade/)](https://www.linkedin.com/in/micaela-andrade/) 
+[![Gmail Badge](https://img.shields.io/badge/-micaela.andrade@outlook.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:micaela.andrade@outlook.com)
 
