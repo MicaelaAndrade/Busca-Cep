@@ -23,8 +23,7 @@ const viaCep = async (cep) => {
   const response = await fetch(url)
   const data = await response.json()
 
-
-
+// informando os dados
   return {
     cep: data.cep,
     logradouro: data.logradouro,
