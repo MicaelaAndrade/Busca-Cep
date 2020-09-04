@@ -10,7 +10,7 @@ describe('testando rota cep',()=>{
     });
 
     it('cep invalidado', async () => {
-        const valor = await request(app).get("/customer-cep/21235280");
+        const valor = await request(app).get("/customer-cep/21235289");
         expect(valor.status).toBe(400)
     });
 })

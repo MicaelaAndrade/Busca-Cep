@@ -32,8 +32,7 @@ $ cd install
 # Execute a aplicação
 $ npm start
 
-# O servidor inciará na porta:3000
-$ acesse http://localhost:3000 
+# O servidor inciará na porta:3000 
 
 # Aplicação Swagger acesse 
     $ http://localhost:3000/doc
@@ -50,12 +49,8 @@ $ acesse http://localhost:3000
 # Aplicação Code coverage
   $ npm test
 
-# Aplicação iniciara na porta:5500
-  $ acesse: http://127.0.0.1:5500/coverage/lcov-report/index.html
-
- 
 # Teste unitário / integração 
-   retornara os dados do cep validado / inválido. 
+   retorna os dados do cep validado / inválido. 
 
 ```
 

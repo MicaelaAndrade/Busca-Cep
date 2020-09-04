@@ -8,6 +8,8 @@ test('buscando cep', async () => {
 
     /** @type {Endereco} */
     const endereco = await viaCep(cep);
+
+    expect(endereco).toBeDefined();
     expect(endereco.cep).toBe('21235-280')
     console.log(endereco)
 
