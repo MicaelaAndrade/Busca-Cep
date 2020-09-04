@@ -58,10 +58,6 @@ $ acesse http://localhost:3000
    retornara os dados do cep validado / inválido. 
 
 ```
- ### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
 
 ### Autor
 
