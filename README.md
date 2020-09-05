@@ -20,7 +20,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 |------|------|------|-------|--------|-----------|
 |GET| / | - | - | - | status do servidor |
 |GET| /auth/token | - | - | - | retorna token da aplicação |
-|GET| /customer-ceṕ/14405275 | - | - | - | retorna os dados informado pelo cep |
+|GET| /customer-cep/14405275 | - | - | - | retorna os dados informado pelo cep |
 | - | /doc | - | - | - | Aplicação do swagger |
 
 
@@ -72,7 +72,7 @@ API_NODE/
 │   │   │── default.json
 │   │   │── express.js
 │   │   │── test.json
-├── DOC/
+├── dOC/
 │   └── SOBRE.md
 ├── .editorconfig
 ├── .eslintrc.js
