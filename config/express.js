@@ -1,6 +1,8 @@
-const express    = require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
-const config     = require('config');
+const config = require('config');
+const CustomerCepRoutes = require('../api/modules/CustomerCep/routes/CustomerCepRoutes');
+const AuthRoutes = require('../api/modules/Auth/routes/AuthRoutes');
 
 module.exports = () => {
   const app = express();
@@ -11,7 +13,8 @@ module.exports = () => {
   //  middlewares
   app.use(bodyParser.json());
 
-  require('../api/routes/customerCep')(app);
+  CustomerCepRoutes(app);
+  AuthRoutes(app);
 
   return app;
 };

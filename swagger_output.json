@@ -2,18 +2,29 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "REST API",
-    "description": "Serviço busca de cep"
+    "title": "API_NODE",
+    "description": "Serviço busca de cep </b>."
   },
   "host": "localhost:3000",
   "basePath": "/",
   "tags": [],
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
-  "securityDefinitions": {},
-  "consumes": [],
-  "produces": [],
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "name": "api_key",
+      "in": "header"
+    }
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
   "paths": {
     "/customer-cep/{cep}": {
       "get": {
@@ -25,18 +36,18 @@
             "in": "path",
             "required": true
           }
-         
         ],
-        "responses": {
-          "404": {
-            "description": "Not Found"
-          }
-        }
+        "responses": {}
+      }
+    },
+    "/auth": {
+      "get": {
+        "tags": [],
+        "description": "",
+        "parameters": [],
+        "responses": {}
       }
     }
   },
   "definitions": {}
 }
-
-
-

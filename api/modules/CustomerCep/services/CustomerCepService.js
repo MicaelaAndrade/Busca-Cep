@@ -10,32 +10,26 @@ const fetch = require('node-fetch');
  */
 
 /**
- * buscando os dados informado 
- * 
- * @param {string} cep 
+ * buscando os dados informado
+ *
+ * @param {string} cep
  * @returns {Promise<Endereco>}s
  */
-const viaCep = async (cep) => {
-
+const CostumerCepServer = async cep => {
   const cleanCep = cep.replace('-', '');
   const url = `https://viacep.com.br/ws/${cleanCep}/json/`;
-  
-  const response = await fetch(url)
-  const data = await response.json()
 
-// informando os dados
+  const response = await fetch(url);
+  const data = await response.json();
+
+  // informando os dados
   return {
     cep: data.cep,
     logradouro: data.logradouro,
     bairro: data.bairro,
     localidade: data.localidade,
-    uf: data.uf
-  }
+    uf: data.uf,
+  };
 };
 
-module.exports = viaCep;
-
-
-
-
-
+module.exports = CostumerCepServer;
