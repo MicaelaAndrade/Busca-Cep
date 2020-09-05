@@ -1,17 +1,11 @@
 <h1 align="center">Serviço busca de cep em Node.js</h1>
 
 ## 👩🏻‍🎤  Sobre o Desafio
-[Aqui](DOC/SOBRE.md)
+[Aqui](doc/SOBRE.md)
 
 ## 💻 O projeto
 <p align="center">Serviço de API desenvolvido em Node.js que busca CEP qualquer localidade,
         o componente exporta uma função que retorna um endereço recebendo um cep como parâmetro.</p>
-
-<h1 align="center">
-    <a href="https://nodejs.org/en/">🔗 Node.Js</a>
-</h1>
-<p align="center">🚀 Serviço busca de cep</p>
-
 
 ### Pré-requisitos
 
@@ -39,10 +33,11 @@ $  Precisa gerar o token primeiro, para poder fazer a consulta do cep informado.
 $  Apos ter gerado o token informar no Authorize, feito isso acessar a rota GET informar o CEP.
 
 # Estrutura do projeto
-$  Foi pensado para facilitar maneira de consultar CEP de qualquer localidade, junto com API ViaCep.
+$  Foi pensado para facilitar maneira de consultar CEP de qualquer localidade,junto com API ViaCep.
 $  Com o retorno dos  dados principais da aplicação .
 
-Todo módulo do projeto tem sua responsabilidade, os arquivos estão configuração e padronizados no projeto.
+Todo módulo do projeto tem sua responsabilidade, os arquivos estão configuração e padronizados
+ no projeto.
 
 API_NODE/
 ├── api/
