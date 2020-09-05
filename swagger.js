@@ -12,18 +12,23 @@ const doc = {
     title: 'API_NODE',
     description: 'Serviço busca de cep </b>.',
   },
-  host: 'localhost:3000',
+  host: 'localhost:3001',
   basePath: '/',
   schemes: ['http', 'https'],
   consumes: ['application/json'],
   produces: ['application/json'],
   securityDefinitions: {
-    api_key: {
+    Bearer: {
       type: 'apiKey',
-      name: 'api_key',
+      name: 'Authorization',
       in: 'header',
     },
   },
+  security: [
+    {
+      Bearer: [],
+    },
+  ],
 };
 
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
