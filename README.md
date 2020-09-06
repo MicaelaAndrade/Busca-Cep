@@ -72,7 +72,7 @@ API_NODE/
 │   │   │── default.json
 │   │   │── express.js
 │   │   │── test.json
-├── dOC/
+├── doc/
 │   └── SOBRE.md
 ├── .editorconfig
 ├── .eslintrc.js
