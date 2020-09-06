@@ -1,7 +1,6 @@
 const jwtk = require('jsonwebtoken');
 const request = require('supertest');
 const app = require('../../../../config/express')();
-// eslint-disable-next-line import/order
 const nock = require('nock');
 
 const { secret, ttl } = require('../../../../config/auth');
