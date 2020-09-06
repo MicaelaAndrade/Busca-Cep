@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599324767192" clover="3.2.0">
-  <project timestamp="1599324767193" name="All files">
-    <metrics statements="107" coveredstatements="94" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="6" elements="127" coveredelements="112" complexity="0" loc="107" ncloc="107" packages="6" files="6" classes="6"/>
+<coverage generated="1599364264326" clover="3.2.0">
+  <project timestamp="1599364264326" name="All files">
+    <metrics statements="132" coveredstatements="128" conditionals="24" coveredconditionals="21" methods="10" coveredmethods="10" elements="166" coveredelements="159" complexity="0" loc="132" ncloc="132" packages="6" files="6" classes="6"/>
     <package name="Auth.controllers">
-      <metrics statements="13" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="AuthController.js" path="/home/luizalabs/Downloads/API_NODE/api/modules/Auth/controllers/AuthController.js">
-        <metrics statements="13" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -60,23 +60,23 @@
       </file>
     </package>
     <package name="CustomerCep.controllers">
-      <metrics statements="18" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <file name="CustomerCepController.js" path="/home/luizalabs/Downloads/API_NODE/api/modules/CustomerCep/controllers/CustomerCepController.js">
-        <metrics statements="18" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
@@ -105,9 +105,9 @@
       </file>
     </package>
     <package name="CustomerCep.services">
-      <metrics statements="35" coveredstatements="35" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="60" coveredstatements="58" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
       <file name="CustomerCepService.js" path="/home/luizalabs/Downloads/API_NODE/api/modules/CustomerCep/services/CustomerCepService.js">
-        <metrics statements="35" coveredstatements="35" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="60" coveredstatements="58" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -142,7 +142,32 @@
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="10" type="stmt"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="55" count="10" type="stmt"/>
+        <line num="56" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="0"/>
       </file>
     </package>
   </project>

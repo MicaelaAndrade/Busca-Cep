@@ -1,13 +1,11 @@
-const CustomerCepService = require('../AuthService');
+const jwt = require('jsonwebtoken');
+const { promisify } = require('util');
+const { secret } = require('../../../../../config/auth');
+const AuthService = require('../AuthService');
 
 // Teste unitário
-test('buscando cep', async () => {
-  const cep = '21235280';
+test('gerando token', async () => {
+  const token = AuthService();
 
-  /** @type {Endereco} */
-  const endereco = await CustomerCepService(cep);
-
-  expect(endereco).toBeDefined();
-  expect(endereco.cep).toBe('21235-280');
-  expect(endereco.cep).toMatchSnapshot();
+  await expect(promisify(jwt.verify)(token, secret)).resolves.not.toBeNull();
 });

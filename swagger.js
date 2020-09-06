@@ -12,7 +12,7 @@ const doc = {
     title: 'API_NODE',
     description: 'Serviço busca de cep </b>.',
   },
-  host: 'localhost:3001',
+  host: 'localhost:3000',
   basePath: '/',
   schemes: ['http', 'https'],
   consumes: ['application/json'],

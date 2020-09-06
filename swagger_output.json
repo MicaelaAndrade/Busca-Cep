@@ -13,9 +13,9 @@
     "https"
   ],
   "securityDefinitions": {
-    "api_key": {
+    "Bearer": {
       "type": "apiKey",
-      "name": "api_key",
+      "name": "Authorization",
       "in": "header"
     }
   },
@@ -28,7 +28,9 @@
   "paths": {
     "/customer-cep/{cep}": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Customer CEP"
+        ],
         "description": "",
         "parameters": [
           {
@@ -37,17 +39,29 @@
             "required": true
           }
         ],
-        "responses": {}
+        "responses": {},
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
       }
     },
     "/auth": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Auth"
+        ],
         "description": "",
         "parameters": [],
         "responses": {}
       }
     }
   },
-  "definitions": {}
+  "definitions": {},
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
 }
